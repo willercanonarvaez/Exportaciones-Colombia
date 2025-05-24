@@ -30,7 +30,7 @@ pestania = st.sidebar.radio("Selecciona una vista:", [
     "Comparativo por País",
     "Mapa Interactivo",
     "Transporte y Régimen",
-    " Logística y Modalidades de Exportación",
+    " Logística y Modalidades de Exportacion",
     "FOB por Departamento",
     "País y Régimen",
      "Mapa Mundial de KG"
@@ -258,7 +258,7 @@ elif pestania == "Transporte y Régimen":
 # ✨ Pestaña 5 - Visualizaciones Avanzadas
 # ================================
 
-elif pestania == " Logística y Modalidades de Exportación":
+elif pestania == "Logística y Modalidades de Exportacion":
     st.markdown("## ✨ Análisis Avanzado de Exportaciones")
 
     # Asegurar tipos numéricos
