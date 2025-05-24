@@ -32,7 +32,7 @@ pestania = st.sidebar.radio("Selecciona una vista:", [
     "Transporte y Régimen",
     "Exploración Multivariable de Exportaciones",
     "FOB por Departamento",
-    " Dinámica Global de Exportaciones por País y mes",
+    "País y Régimen",
      "Mapa Mundial de KG"
 
 ])
@@ -387,7 +387,7 @@ elif pestania == "FOB por Departamento":
 # ================================
 # 🧩 Pestaña 7 - País y Régimen
 # ================================
-elif pestania == "Dinámica Global de Exportaciones por País y mes":
+elif pestania == "País y Régimen":
     st.markdown("## 🌎 Análisis Interactivo de Exportaciones por País y Régimen")
 
     # ========================
