@@ -6,15 +6,20 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import json
 import plotly.express as px
+import io
+import requests
 
 
 # 🛠️ Configuración inicial obligatoria
 st.set_page_config(page_title="Dashboard de Exportaciones", layout="wide")
 
 # 📥 Cargar datos (desde archivo ya modificado con LATITUD y LONGITUD)
+
 @st.cache_data
 def cargar_datos():
-    return pd.read_excel("base_exportaciones.xlsx")
+    url = "https://drive.google.com/uc?id=1HxVhrT5bwke_2XkPtUDNmO8iPtCTDdLT"
+    response = requests.get(url)
+    return pd.read_excel(io.BytesIO(response.content))
 
 df = cargar_datos()
 
