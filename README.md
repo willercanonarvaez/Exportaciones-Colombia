@@ -1,5 +1,18 @@
 # Dashboard Interactivo de Exportaciones de Colombia
 
+## 🧩 Tecnologías utilizadas
+
+![Python](https://img.shields.io/badge/Python-3.x-3776AB?logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?logo=streamlit&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-Interactive%20Charts-3F4F75?logo=plotly&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557C)
+![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-4C72B0)
+![OpenPyXL](https://img.shields.io/badge/OpenPyXL-Excel-217346)
+![Requests](https://img.shields.io/badge/Requests-HTTP-2C5BB4)
+
+---
+
 Proyecto de análisis y visualización de datos desarrollado en **Python y Streamlit**
 para explorar el comportamiento de las exportaciones colombianas mediante un
 dashboard interactivo.
