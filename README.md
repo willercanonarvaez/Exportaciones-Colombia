@@ -1,4 +1,4 @@
-# 🇨🇴 Dashboard Interactivo de Exportaciones de Colombia
+# Dashboard Interactivo de Exportaciones de Colombia
 
 Proyecto de análisis y visualización de datos desarrollado en **Python y Streamlit**
 para explorar el comportamiento de las exportaciones colombianas mediante un
